@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    nav {
+      position: sticky;
+      top: 0;
+
+      background-color: aliceblue;
+      padding: 5px;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+    .navbar {
+      display: flex;
+      gap: 20px;
+    }
+    .image-container {
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      /* background-color: antiquewhite; */
+    }
+    .image-container img {
+      width: 500px;
+      height: auto;
+    }
+    .portfolio {
+      margin-top: 80px;
+      min-height: 500px;
+      background-color: blue;
+    }
+
+    .portfolio-title .h1 {
+      /* position: relative; */
+      font-size: 150px;
+      line-height: 0.8;
+      color: orangered;
+      font-weight: normal;
+      /* margin-left: 50px; */
+    }
+
+    .portfolio-image {
+      position: absolute;
+    }
+
+    .portfolio-image img {
+      width: 450px;
+      height: 490px;
+      object-fit: cover;
+    }
+  </style>
+  <body>
+    <nav>
+      <h1 style="color: red">Pia Quinn</h1>
+      <div class="navbar">
+        <a href="#info">info</a>
+        <a href="#select work"> select work</a>
+      </div>
+    </nav>
+    <div class="image-container">
+      <section class="portofolio">
+        <div class="portfolio-title">
+          <span class="h1">PORTFOLIO<br />PORT</span>
+          <span class="portfolio-image">
+            <img src="image-asset (1).webp" alt="image" />
+          </span>
+          <p style="width: 350px; margin-top: 200px;">
+            <span style="display: block; font-size: larger; font-weight: bolder;">INFO</span>
+            Hi, i am Pia Quinn.i am a creative designer focused on creating
+            beautiful and meaningful visual experiences. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Quasi iste sint nesciunt quisquam
+            totam saepe incidunt aut accusantium, harum iure ex minus quibusdam,
+            tempora fuga voluptatibus enim? Fugiat, ea. Voluptatibus.
+          </p>
+        </div>
+      </section>
+    </div>
+    <section id="info" class="info">
+      
+    </section>
+    <section id="select work" class="select-work">
+      <h2>SELECT WORK</h2>
+      <p>A collection of selected projects and creative works.</p>
+    </section>
+  </body>
+</html>

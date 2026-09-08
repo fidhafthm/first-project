@@ -1,0 +1,15 @@
+.container{
+      background-color: yellow;
+      display: flex ;
+      flex-wrap: wrap;
+}
+
+.item{
+    background-color: green;
+    border: 1px solid brown;
+    padding: 50px;
+    color: white;
+    font-size: 30 px;
+}
+
+    
